@@ -1,0 +1,28 @@
+{
+    "name": "eliuflorez/tenancy-database",
+    "description": "The tenancy/tenancy database mutations",
+    "keywords": ["hooks", "tenancy", "database"],
+    "license": "MIT",
+    "require": {
+        "eliuflorez/tenancy-framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tenancy\\Hooks\\Database\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Eliu Florez",
+            "email": "eliufz@gmail.com",
+            "homepage": "https://github.com/EliuFlorez"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tenancy\\Hooks\\Database\\Provider"
+            ]
+        }
+    }
+}
